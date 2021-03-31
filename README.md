@@ -48,3 +48,4 @@ http://wiki.ros.org/image_pipeline
 - Multi-camera support
 - nodelet support
 - test on other device
+# galaxy_camera
