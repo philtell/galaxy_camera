@@ -27,13 +27,15 @@ catkin_make
 source devel/setup.bash
 ```
 ## Test
-1. Connect the camera by USB, run:
+1. Connect the camera by Gige, run:
 ```
-roslaunch galaxy_camera MER-139.launch
+roslaunch galaxy_camera MER-132GC.launch
+or 
+roslaunch galaxy_camera MER-132GC_R_L.launch
 ```
-check the image on rqt_image_view.
-
 2. Adjust the params in launch file.
+
+
 
 
 3. Calibrate:
@@ -48,4 +50,5 @@ http://wiki.ros.org/image_pipeline
 - Multi-camera support
 - nodelet support
 - test on other device
+
 # galaxy_camera
