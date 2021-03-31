@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: galaxy_camera
+Description: Description of galaxy_camera
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

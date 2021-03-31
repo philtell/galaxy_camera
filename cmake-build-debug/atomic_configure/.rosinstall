@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/beihang/catkin_ws/src/galaxy_camera_ros_driver/cmake-build-debug/devel/setup.sh

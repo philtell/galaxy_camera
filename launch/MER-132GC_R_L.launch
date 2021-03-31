@@ -1,0 +1,22 @@
+<launch>
+<group ns="mako1">
+    <node name="galaxy_camera" pkg="galaxy_camera" type="galaxy_camera" output="screen">
+          <param name="image_width" value="1280"/>
+          <param name="image_height" value="964"/>
+          <param name="pixel_format" value="bgr8"/>
+          <param name="camera_info_url" value=""/>
+          <param name="camera_frame_id" value="pitch_camera"/>
+          <param name="device_ip" value="192.168.2.11"/>
+      </node>
+</group>
+<group ns="mako2">
+       <node name="galaxy_camera" pkg="galaxy_camera" type="galaxy_camera" output="screen">
+             <param name="image_width" value="1280"/>
+             <param name="image_height" value="964"/>
+             <param name="pixel_format" value="bgr8"/>
+             <param name="camera_info_url" value=""/>
+             <param name="camera_frame_id" value="pitch_camera"/>
+             <param name="device_ip" value="192.168.3.12"/>
+         </node>
+    </group>
+</launch>
